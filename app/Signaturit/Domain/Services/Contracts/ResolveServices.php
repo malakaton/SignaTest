@@ -2,7 +2,7 @@
 
 namespace App\Signaturit\Domain\Services\Contracts;
 
-use App\Signaturit\Domain\Models\Roles\RoleType;
+use App\Signaturit\Domain\Models\Contracts\Roles\RoleType;
 
 class ResolveServices
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Signaturit\Domain\Models\Roles;
+namespace App\Signaturit\Domain\Models\Contracts\Roles;
 
 use App\Models\BasicModel;
 

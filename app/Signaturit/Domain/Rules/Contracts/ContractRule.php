@@ -2,7 +2,7 @@
 
 namespace App\Signaturit\Domain\Rules\Contracts;
 
-use App\Signaturit\Domain\Models\Roles\RoleType;
+use App\Signaturit\Domain\Models\Contracts\Roles\RoleType;
 use Illuminate\Contracts\Validation\Rule;
 
 class ContractRule implements Rule

@@ -82,7 +82,7 @@
 
                 <br><br><br>
 
-                <form method="post" action="{{ route('contracts.resolve') }}" target="_blank">
+                <form method="post" action="{{ route('contracts.get.points.win') }}" target="_blank">
                     <fieldset>
                         <legend>Calculate minimum points to win the trial (second stage)</legend>
                         <label>Plaintiff<input type="text" name="plaintiff[signatures]" value="N#V"></label>
@@ -90,6 +90,9 @@
                         <input type="submit" value="Get result">
                     </fieldset>
                 </form>
+                <br><br>
+
+                <a href="reports/index.html" target="_blank">Code Coverage</a>
             </div>
         </div>
     </body>
