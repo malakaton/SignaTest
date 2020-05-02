@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <meta name="csrf-token" content="{{ csrf_token() }}" />
 
         <title>Laravel</title>
 
@@ -71,25 +73,29 @@
                     Looby Wars
                 </div>
 
-                <form method="post" action="{{ route('contracts.resolve') }}" target="_blank">
-                    <fieldset>
-                        <legend>Resolve Lawsuit (first phase)</legend>
-                        <label>Plaintiff<input type="text" name="plaintiff[signatures]" value="KN"></label>
-                        <label>Defendant<input type="text" name="defendant[signatures]" value="NNV"></label>
-                        <input type="submit" value="Get result">
-                    </fieldset>
-                </form>
+{{--                <form method="post" action="{{ route('contracts.resolve') }}" target="_blank">--}}
+{{--                    <fieldset>--}}
+{{--                        <legend>Resolve Lawsuit (first phase)</legend>--}}
+{{--                        <label>Plaintiff<input type="text" name="plaintiff[signatures]" value="KN"></label>--}}
+{{--                        <label>Defendant<input type="text" name="defendant[signatures]" value="NNV"></label>--}}
+{{--                        <input type="submit" value="Get result" class="btn-submit">--}}
+{{--                    </fieldset>--}}
+{{--                </form>--}}
+                <fieldset>
+                    <legend>Resolve Lawsuit (first phase)</legend>
+                    <label>Plaintiff<input type="text" name="plaintiffSignaturesWin" value="KN"></label>
+                    <label>Defendant<input type="text" name="defendantSignaturesWin" value="NNV"></label>
+                    <input type="submit" value="Get result" class="btn-submit-win">
+                </fieldset>
 
                 <br><br><br>
 
-                <form method="post" action="{{ route('contracts.get.points.win') }}" target="_blank">
-                    <fieldset>
-                        <legend>Calculate minimum points to win the trial (second stage)</legend>
-                        <label>Plaintiff<input type="text" name="plaintiff[signatures]" value="N#V"></label>
-                        <label>Defendant<input type="text" name="defendant[signatures]" value="NVV"></label>
-                        <input type="submit" value="Get result">
-                    </fieldset>
-                </form>
+                <fieldset>
+                    <legend>Calculate minimum points to win the trial (second stage)</legend>
+                    <label>Plaintiff<input type="text" name="plaintiffSignaturesPoints" value="N#V"></label>
+                    <label>Defendant<input type="text" name="defendantSignaturesPoints" value="NVV"></label>
+                    <input type="submit" value="Get result" class="btn-submit-points">
+                </fieldset>
                 <br><br>
 
                 <a href="reports/index.html" target="_blank">Code Coverage</a>
@@ -97,3 +103,73 @@
         </div>
     </body>
 </html>
+
+<script type="text/javascript">
+
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+
+    $(".btn-submit-win").click(function(e){
+        e.preventDefault();
+
+        var plaintiff = {
+            "signatures": $("input[name=plaintiffSignaturesWin]").val()
+        }
+
+        var defendant = {
+            "signatures": $("input[name=defendantSignaturesWin]").val()
+        }
+
+        $.ajax({
+            type:'POST',
+            url: '/api/contracts',
+            dataType: "json",
+            data:{
+                plaintiff,
+                defendant
+            },
+            success:function(response){
+                console.log(response.data);
+                alert(response.data.winner);
+            },
+            error: function(XMLHttpRequest) {
+                console.log(XMLHttpRequest);
+                alert(XMLHttpRequest.responseText);
+            }
+        });
+    });
+
+    $(".btn-submit-points").click(function(e){
+        e.preventDefault();
+
+        var plaintiff = {
+            "signatures": $("input[name=plaintiffSignaturesPoints]").val()
+        }
+
+        var defendant = {
+            "signatures": $("input[name=defendantSignaturesPoints]").val()
+        }
+
+        $.ajax({
+            type:'POST',
+            url: '/api/contracts/calculate/points_to_win',
+            dataType: "json",
+            data:{
+                plaintiff,
+                defendant
+            },
+            success:function(response){
+                console.log(response.data);
+                alert(response.data.result);
+            },
+            error: function(XMLHttpRequest) {
+                console.log(XMLHttpRequest);
+                alert(XMLHttpRequest.responseText);
+            }
+        });
+    });
+
+</script>

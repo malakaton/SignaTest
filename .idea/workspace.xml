@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bffe6199-3801-496f-98cd-8280423a036d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crm-clients/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../crm-clients/CHANGELOG.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="127.0.0.1" id="9b669651-1be2-4a05-b0ba-2bcd50348890" name="127.0.0.1" port="8000" />
@@ -199,6 +202,8 @@
       <workItem from="1588433243435" duration="111000" />
       <workItem from="1588433360774" duration="8185000" />
       <workItem from="1588441782120" duration="1946000" />
+      <workItem from="1588444181296" duration="291000" />
+      <workItem from="1588444506020" duration="2640000" />
     </task>
     <servers />
   </component>
