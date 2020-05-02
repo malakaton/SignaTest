@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bffe6199-3801-496f-98cd-8280423a036d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/Unit/Services/Contracts/ResolveServiceUnitTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SignaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SignaTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/Contracts/ContractFeatureTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Contracts/ContractFeatureTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Models/Contracts/Roles/RolesUnitTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Models/Contracts/Roles/RolesUnitTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crm-clients/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../crm-clients/CHANGELOG.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +126,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../crm-business" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -205,7 +200,7 @@
       <updated>1588433241991</updated>
       <workItem from="1588433243435" duration="111000" />
       <workItem from="1588433360774" duration="8185000" />
-      <workItem from="1588441782120" duration="884000" />
+      <workItem from="1588441782120" duration="1901000" />
     </task>
     <servers />
   </component>
@@ -245,22 +240,22 @@
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state x="1511" y="499" key="FileChooserDialogImpl/0.40.3440.1400@0.40.3440.1400" timestamp="1588440981908" />
-    <state width="3396" height="385" key="GridCell.Tab.0.bottom" timestamp="1588442555857">
+    <state width="3396" height="385" key="GridCell.Tab.0.bottom" timestamp="1588442957347">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="385" key="GridCell.Tab.0.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588442555857" />
-    <state width="3396" height="385" key="GridCell.Tab.0.center" timestamp="1588442555856">
+    <state width="3396" height="385" key="GridCell.Tab.0.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588442957347" />
+    <state width="3396" height="385" key="GridCell.Tab.0.center" timestamp="1588442957347">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="385" key="GridCell.Tab.0.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588442555856" />
-    <state width="3396" height="385" key="GridCell.Tab.0.left" timestamp="1588442555856">
+    <state width="3396" height="385" key="GridCell.Tab.0.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588442957347" />
+    <state width="3396" height="385" key="GridCell.Tab.0.left" timestamp="1588442957346">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="385" key="GridCell.Tab.0.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588442555856" />
-    <state width="3396" height="385" key="GridCell.Tab.0.right" timestamp="1588442555856">
+    <state width="3396" height="385" key="GridCell.Tab.0.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588442957346" />
+    <state width="3396" height="385" key="GridCell.Tab.0.right" timestamp="1588442957347">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="385" key="GridCell.Tab.0.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588442555856" />
+    <state width="3396" height="385" key="GridCell.Tab.0.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588442957347" />
     <state width="3396" height="473" key="GridCell.Tab.1.bottom" timestamp="1588441552197">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
@@ -293,10 +288,10 @@
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state width="3396" height="473" key="GridCell.Tab.2.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588441552197" />
-    <state x="1202" y="377" key="SettingsEditor" timestamp="1588442665611">
+    <state x="1202" y="377" key="SettingsEditor" timestamp="1588442788556">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state x="1202" y="377" key="SettingsEditor/0.40.3440.1400@0.40.3440.1400" timestamp="1588442665611" />
+    <state x="1202" y="377" key="SettingsEditor/0.40.3440.1400@0.40.3440.1400" timestamp="1588442788556" />
     <state x="538" y="228" width="1562" height="828" key="find.popup" timestamp="1588441029832">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
