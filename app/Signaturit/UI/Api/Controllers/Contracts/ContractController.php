@@ -25,10 +25,14 @@ class ContractController extends BaseController
     public function resolve(ContractRequest $request): ContractResource
     {
         return new ContractResource(
-            (new ResolveServices(
-                str_split(strtoupper($request->input('plaintiff.signatures'))),
-                str_split(strtoupper($request->input('defendant.signatures')))
-            ))->getWinner()
+            [
+                'plaintiff' => strtoupper($request->input('plaintiff.signatures')),
+                'defendant' => strtoupper($request->input('defendant.signatures')),
+                'winner' => (new ResolveServices(
+                    str_split(strtoupper($request->input('plaintiff.signatures'))),
+                    str_split(strtoupper($request->input('defendant.signatures')))
+                ))->getWinner()
+            ]
         );
     }
 }

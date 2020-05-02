@@ -15,7 +15,9 @@ class ContractResource extends JsonResource
     public function toArray($request): array
     {
         return [
-            'winner' => $this->resource
+            'plaintiff' => $this['plaintiff'],
+            'defendant' => $this['defendant'],
+            'winner' => $this['winner']
         ];
     }
 
