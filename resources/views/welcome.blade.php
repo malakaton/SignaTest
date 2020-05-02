@@ -71,10 +71,24 @@
                     Looby Wars
                 </div>
 
-                <form method="post" action="{{ route('contracts.resolve') }}">
-                    <input type="hidden" name="plaintiff[signatures]" value="KN">
-                    <input type="hidden" name="defendant[signatures]" value="NNV">
-                    <input type="submit" value="Get result of first phase">
+                <form method="post" action="{{ route('contracts.resolve') }}" target="_blank">
+                    <fieldset>
+                        <legend>Resolve Lawsuit (first phase)</legend>
+                        <label>Plaintiff<input type="text" name="plaintiff[signatures]" value="KN"></label>
+                        <label>Defendant<input type="text" name="defendant[signatures]" value="NNV"></label>
+                        <input type="submit" value="Get result">
+                    </fieldset>
+                </form>
+
+                <br><br><br>
+
+                <form method="post" action="{{ route('contracts.resolve') }}" target="_blank">
+                    <fieldset>
+                        <legend>Calculate minimum points to win the trial (second stage)</legend>
+                        <label>Plaintiff<input type="text" name="plaintiff[signatures]" value="N#V"></label>
+                        <label>Defendant<input type="text" name="defendant[signatures]" value="NVV"></label>
+                        <input type="submit" value="Get result">
+                    </fieldset>
                 </form>
             </div>
         </div>

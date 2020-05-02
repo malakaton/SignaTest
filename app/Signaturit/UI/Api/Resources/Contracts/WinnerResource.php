@@ -4,7 +4,7 @@ namespace App\Signaturit\UI\Api\Resources\Contracts;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class ContractResource extends JsonResource
+class WinnerResource extends JsonResource
 {
     /**
      * Transform the resource into an array.

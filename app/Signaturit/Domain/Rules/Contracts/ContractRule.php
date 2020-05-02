@@ -21,7 +21,7 @@ class ContractRule implements Rule
         foreach (str_split($value) as $signature) {
             $countEmptySigns += ($signature === RoleType::EMPTY_SIGNATURE) ? 1 : 0;
 
-            if (($countEmptySigns > 1) || !RoleType::get(strtoupper($signature))) {
+            if (($countEmptySigns > 1) || !RoleType::get('id', strtoupper($signature))) {
                 return false;
             }
         }

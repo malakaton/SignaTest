@@ -2,9 +2,9 @@
 
 namespace App\Signaturit\Domain\Models\Roles;
 
-use App\Models\ConstModel;
+use App\Models\BasicModel;
 
-class RoleType extends ConstModel
+class RoleType extends BasicModel
 {
     public const KING = 'K';
     public const NOTARY = 'N';
@@ -14,10 +14,10 @@ class RoleType extends ConstModel
     public function getTypes(): array
     {
         return [
-            [ 'id' => self::KING, 'name' => __("roles.king"), 'points' => 5 ],
-            [ 'id' => self::NOTARY, 'name' => __("roles.notary"), 'points' => 2],
-            [ 'id' => self::VALIDATOR, 'name' => __("roles.validator"), 'points' => 1],
             [ 'id' => self::EMPTY_SIGNATURE, 'name' => __("roles.empty"), 'points' => 0],
+            [ 'id' => self::VALIDATOR, 'name' => __("roles.validator"), 'points' => 1],
+            [ 'id' => self::NOTARY, 'name' => __("roles.notary"), 'points' => 2],
+            [ 'id' => self::KING, 'name' => __("roles.king"), 'points' => 5 ]
         ];
     }
 }

@@ -18,5 +18,6 @@ Route::group([
      'namespace'     => 'App\Signaturit\UI\Api\Controllers\Contracts'
      ], static function () {
         Route::post('/', 'ContractController@resolve')->name('contracts.resolve');
+        Route::post('/calculate/points_to_win', 'ContractController@getMinPointsToWin')->name('contracts.get.points.win');
     }
 );

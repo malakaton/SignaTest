@@ -4,7 +4,8 @@ namespace App\Signaturit\UI\Api\Controllers\Contracts;
 
 use App\Signaturit\Domain\Services\Contracts\ResolveServices;
 use App\Signaturit\UI\Api\Requests\Contracts\ContractRequest;
-use App\Signaturit\UI\Api\Resources\Contracts\ContractResource;
+use App\Signaturit\UI\Api\Resources\Contracts\NeededRolesToWin;
+use App\Signaturit\UI\Api\Resources\Contracts\WinnerResource;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -17,14 +18,14 @@ class ContractController extends BaseController
     use ValidatesRequests;
 
     /**
-     * Resolve a contract and get the winner
+     * Resolve a contract and get the winner of lawsuit
      *
      * @param ContractRequest $request
-     * @return ContractResource
+     * @return WinnerResource
      */
-    public function resolve(ContractRequest $request): ContractResource
+    public function resolve(ContractRequest $request): WinnerResource
     {
-        return new ContractResource(
+        return new WinnerResource(
             [
                 'plaintiff' => strtoupper($request->input('plaintiff.signatures')),
                 'defendant' => strtoupper($request->input('defendant.signatures')),
@@ -33,6 +34,22 @@ class ContractController extends BaseController
                     str_split(strtoupper($request->input('defendant.signatures')))
                 ))->getWinner()
             ]
+        );
+    }
+
+    /**
+     * Calculate and get the minimum points necessaries to win the trial, when exist empty signature on contract
+     *
+     * @param ContractRequest $request
+     * @return NeededRolesToWin
+     */
+    public function getMinPointsToWin(ContractRequest $request): NeededRolesToWin
+    {
+        return new NeededRolesToWin(
+            (new ResolveServices(
+                str_split(strtoupper($request->input('plaintiff.signatures'))),
+                str_split(strtoupper($request->input('defendant.signatures')))
+            ))->calculatePointsForWinner()
         );
     }
 }
