@@ -9,7 +9,10 @@
 
 ## Execution
 
-Open a terminal and go to the directory of project, execute the command php artisan serve and go to this follow url: http://localhost:8000/
+Open a terminal and go to the directory of project, execute composer install. When finished execute execute the command php artisan key:generate.
+Rename the file .env.example to .env . 
+
+Finally, execute the command php artisan serve and go to this follow url: http://localhost:8000/
 
 ## First phase
 
