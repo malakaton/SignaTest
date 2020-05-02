@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SignaTest.iml" filepath="$PROJECT_DIR$/.idea/SignaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../crm-business/.idea/crm-business.iml" filepath="$PROJECT_DIR$/../crm-business/.idea/crm-business.iml" />
       <module fileurl="file://$PROJECT_DIR$/../crm-clients/.idea/crm-clients.iml" filepath="$PROJECT_DIR$/../crm-clients/.idea/crm-clients.iml" />
     </modules>
   </component>

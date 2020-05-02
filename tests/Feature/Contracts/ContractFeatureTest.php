@@ -10,7 +10,7 @@ class ContractFeatureTest extends TestCase
     /**
      * @test
      */
-    function get_plaintiff_is_winner_works(): void
+    public function get_plaintiff_is_winner_works(): void
     {
         $params['plaintiff']['signatures'] = 'NNV';
         $params['defendant']['signatures'] = 'VVV';
@@ -34,7 +34,7 @@ class ContractFeatureTest extends TestCase
     /**
      * @test
      */
-    function get_defendant_is_winner_works(): void
+    public function get_defendant_is_winner_works(): void
     {
         $params['defendant']['signatures'] = 'NNV';
         $params['plaintiff']['signatures'] = 'VVV';
@@ -58,7 +58,7 @@ class ContractFeatureTest extends TestCase
     /**
      * @test
      */
-    function get_tie_on_lawsuit_works(): void
+    public function get_tie_on_lawsuit_works(): void
     {
         $params['defendant']['signatures'] = 'NNV';
         $params['plaintiff']['signatures'] = 'NNV';
@@ -82,7 +82,7 @@ class ContractFeatureTest extends TestCase
     /**
      * @test
      */
-    function get_points_to_make_winner_defendant_works(): void
+    public function get_points_to_make_winner_defendant_works(): void
     {
         $params['plaintiff']['signatures'] = 'NVV';
         $params['defendant']['signatures'] = 'N#V';
@@ -105,7 +105,7 @@ class ContractFeatureTest extends TestCase
     /**
      * @test
      */
-    function get_points_to_make_winner_plaintiff_works(): void
+    public function get_points_to_make_winner_plaintiff_works(): void
     {
         $params['plaintiff']['signatures'] = 'N#V';
         $params['defendant']['signatures'] = 'KK';
@@ -128,7 +128,7 @@ class ContractFeatureTest extends TestCase
     /**
      * @test
      */
-    function get_winner_bad_signature_fail()
+    public function get_winner_bad_signature_fail(): void
     {
         $params['plaintiff']['signatures'] = '1,V';
         $params['defendant']['signatures'] = 'VVV';

@@ -95,5 +95,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="crm-clients" />
+    <orderEntry type="module" module-name="crm-business" />
   </component>
 </module>

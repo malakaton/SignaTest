@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bffe6199-3801-496f-98cd-8280423a036d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Contracts/ContractFeatureTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/Services/Contracts/ResolveServiceUnitTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SignaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SignaTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Signaturit/Domain/Models/Roles/RoleType.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Signaturit/Domain/Models/Contracts/Roles/RoleType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Signaturit/Domain/Rules/Contracts/ContractRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Signaturit/Domain/Rules/Contracts/ContractRule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Signaturit/Domain/Services/Contracts/ResolveServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Signaturit/Domain/Services/Contracts/ResolveServices.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Models/Contracts/Roles/RolesUnitTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/Contracts/ContractFeatureTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Contracts/ContractFeatureTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Models/Contracts/Roles/RolesUnitTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Models/Contracts/Roles/RolesUnitTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crm-clients/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../crm-clients/CHANGELOG.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,9 +129,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crm-clients" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crm-business" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -150,7 +141,7 @@
       <recent name="$PROJECT_DIR$/tests/Unit/Contracts" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.RolesUnitTest">
+  <component name="RunManager" selected="PHPUnit.ResolveServiceUnitTest">
     <configuration name="LOCALHOST" type="LaravelStorm_run_conf_serve" factoryName="Laravel">
       <option name="host" value="localhost" />
       <option name="port" value="8000" />
@@ -159,24 +150,24 @@
       <option name="interpreterName" value="PHP 7.4" />
       <method v="2" />
     </configuration>
-    <configuration name="ContractFeatureTest.get_points_to_make_winner_plaintiff_works" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\Contracts\ContractFeatureTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Contracts/ContractFeatureTest.php" method="get_points_to_make_winner_plaintiff_works" scope="Method" />
+    <configuration name="ContractFeatureTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\Contracts\ContractFeatureTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/Contracts/ContractFeatureTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="RolesUnitTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\RolesUnitTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Models/Contracts/Roles/RolesUnitTest.php" scope="Class" />
+    <configuration name="ResolveServiceUnitTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Services\Contracts\ResolveServiceUnitTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Services/Contracts/ResolveServiceUnitTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="RolesUnitTest.get_all_roles" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\RolesUnitTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Models/Contracts/Roles/RolesUnitTest.php" method="get_all_roles" scope="Method" />
+    <configuration name="ResolveServiceUnitTest.get_all_roles" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Services\Contracts\ResolveServiceUnitTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Services/Contracts/ResolveServiceUnitTest.php" method="get_all_roles" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="RolesUnitTest.undefined_attribute" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\RolesUnitTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Models/Contracts/Roles/RolesUnitTest.php" method="undefined_attribute" scope="Method" />
+    <configuration name="ResolveServiceUnitTest.get_closest_point_from_value" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Services\Contracts\ResolveServiceUnitTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Services/Contracts/ResolveServiceUnitTest.php" method="get_closest_point_from_value" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="RolesUnitTest.undefined_attribute_roles" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\RolesUnitTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Models/Contracts/Roles/RolesUnitTest.php" method="undefined_attribute_roles" scope="Method" />
+    <configuration name="RolesUnitTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\Models\Contracts\Roles\RolesUnitTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/Models/Contracts/Roles/RolesUnitTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -186,19 +177,19 @@
     <list>
       <item itemvalue="Laravel.LOCALHOST" />
       <item itemvalue="PHPUnit.phpunit.xml" />
-      <item itemvalue="PHPUnit.ContractFeatureTest.get_points_to_make_winner_plaintiff_works" />
-      <item itemvalue="PHPUnit.RolesUnitTest.undefined_attribute" />
-      <item itemvalue="PHPUnit.RolesUnitTest.get_all_roles" />
-      <item itemvalue="PHPUnit.RolesUnitTest.undefined_attribute_roles" />
-      <item itemvalue="PHPUnit.RolesUnitTest" />
+      <item itemvalue="PHPUnit.RolesUnitTest (1)" />
+      <item itemvalue="PHPUnit.ContractFeatureTest" />
+      <item itemvalue="PHPUnit.ResolveServiceUnitTest.get_all_roles" />
+      <item itemvalue="PHPUnit.ResolveServiceUnitTest.get_closest_point_from_value" />
+      <item itemvalue="PHPUnit.ResolveServiceUnitTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.RolesUnitTest" />
-        <item itemvalue="PHPUnit.RolesUnitTest.undefined_attribute_roles" />
-        <item itemvalue="PHPUnit.RolesUnitTest.get_all_roles" />
-        <item itemvalue="PHPUnit.RolesUnitTest.undefined_attribute" />
-        <item itemvalue="PHPUnit.ContractFeatureTest.get_points_to_make_winner_plaintiff_works" />
+        <item itemvalue="PHPUnit.ResolveServiceUnitTest" />
+        <item itemvalue="PHPUnit.ResolveServiceUnitTest.get_closest_point_from_value" />
+        <item itemvalue="PHPUnit.ResolveServiceUnitTest.get_all_roles" />
+        <item itemvalue="PHPUnit.ContractFeatureTest" />
+        <item itemvalue="PHPUnit.RolesUnitTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +204,8 @@
       <option name="presentableId" value="Default" />
       <updated>1588433241991</updated>
       <workItem from="1588433243435" duration="111000" />
-      <workItem from="1588433360774" duration="6654000" />
+      <workItem from="1588433360774" duration="8185000" />
+      <workItem from="1588441782120" duration="884000" />
     </task>
     <servers />
   </component>
@@ -245,69 +237,69 @@
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state x="1532" y="401" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.3440.1400@0.40.3440.1400" timestamp="1588439700037" />
-    <state x="1454" y="500" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1588439743311">
+    <state x="1454" y="500" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1588440661340">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state x="1454" y="500" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.40.3440.1400@0.40.3440.1400" timestamp="1588439743311" />
-    <state x="1511" y="499" key="FileChooserDialogImpl" timestamp="1588435674987">
+    <state x="1454" y="500" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.40.3440.1400@0.40.3440.1400" timestamp="1588440661340" />
+    <state x="1511" y="499" key="FileChooserDialogImpl" timestamp="1588440981908">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state x="1511" y="499" key="FileChooserDialogImpl/0.40.3440.1400@0.40.3440.1400" timestamp="1588435674987" />
-    <state width="3396" height="385" key="GridCell.Tab.0.bottom" timestamp="1588440017816">
+    <state x="1511" y="499" key="FileChooserDialogImpl/0.40.3440.1400@0.40.3440.1400" timestamp="1588440981908" />
+    <state width="3396" height="385" key="GridCell.Tab.0.bottom" timestamp="1588442555857">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="385" key="GridCell.Tab.0.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588440017816" />
-    <state width="3396" height="385" key="GridCell.Tab.0.center" timestamp="1588440017816">
+    <state width="3396" height="385" key="GridCell.Tab.0.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588442555857" />
+    <state width="3396" height="385" key="GridCell.Tab.0.center" timestamp="1588442555856">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="385" key="GridCell.Tab.0.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588440017816" />
-    <state width="3396" height="385" key="GridCell.Tab.0.left" timestamp="1588440017815">
+    <state width="3396" height="385" key="GridCell.Tab.0.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588442555856" />
+    <state width="3396" height="385" key="GridCell.Tab.0.left" timestamp="1588442555856">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="385" key="GridCell.Tab.0.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588440017815" />
-    <state width="3396" height="385" key="GridCell.Tab.0.right" timestamp="1588440017816">
+    <state width="3396" height="385" key="GridCell.Tab.0.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588442555856" />
+    <state width="3396" height="385" key="GridCell.Tab.0.right" timestamp="1588442555856">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="385" key="GridCell.Tab.0.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588440017816" />
-    <state width="3396" height="473" key="GridCell.Tab.1.bottom" timestamp="1588433631471">
+    <state width="3396" height="385" key="GridCell.Tab.0.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588442555856" />
+    <state width="3396" height="473" key="GridCell.Tab.1.bottom" timestamp="1588441552197">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.1.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588433631471" />
-    <state width="3396" height="473" key="GridCell.Tab.1.center" timestamp="1588433631470">
+    <state width="3396" height="473" key="GridCell.Tab.1.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588441552197" />
+    <state width="3396" height="473" key="GridCell.Tab.1.center" timestamp="1588441552197">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.1.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588433631470" />
-    <state width="3396" height="473" key="GridCell.Tab.1.left" timestamp="1588433631470">
+    <state width="3396" height="473" key="GridCell.Tab.1.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588441552197" />
+    <state width="3396" height="473" key="GridCell.Tab.1.left" timestamp="1588441552196">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.1.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588433631470" />
-    <state width="3396" height="473" key="GridCell.Tab.1.right" timestamp="1588433631471">
+    <state width="3396" height="473" key="GridCell.Tab.1.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588441552196" />
+    <state width="3396" height="473" key="GridCell.Tab.1.right" timestamp="1588441552197">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.1.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588433631471" />
-    <state width="3396" height="473" key="GridCell.Tab.2.bottom" timestamp="1588433631472">
+    <state width="3396" height="473" key="GridCell.Tab.1.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588441552197" />
+    <state width="3396" height="473" key="GridCell.Tab.2.bottom" timestamp="1588441552198">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.2.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588433631472" />
-    <state width="3396" height="473" key="GridCell.Tab.2.center" timestamp="1588433631471">
+    <state width="3396" height="473" key="GridCell.Tab.2.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588441552198" />
+    <state width="3396" height="473" key="GridCell.Tab.2.center" timestamp="1588441552197">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.2.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588433631471" />
-    <state width="3396" height="473" key="GridCell.Tab.2.left" timestamp="1588433631471">
+    <state width="3396" height="473" key="GridCell.Tab.2.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588441552197" />
+    <state width="3396" height="473" key="GridCell.Tab.2.left" timestamp="1588441552197">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.2.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588433631471" />
-    <state width="3396" height="473" key="GridCell.Tab.2.right" timestamp="1588433631471">
+    <state width="3396" height="473" key="GridCell.Tab.2.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588441552197" />
+    <state width="3396" height="473" key="GridCell.Tab.2.right" timestamp="1588441552197">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.2.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588433631471" />
-    <state x="1202" y="377" key="SettingsEditor" timestamp="1588433254559">
+    <state width="3396" height="473" key="GridCell.Tab.2.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588441552197" />
+    <state x="1202" y="377" key="SettingsEditor" timestamp="1588442665611">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state x="1202" y="377" key="SettingsEditor/0.40.3440.1400@0.40.3440.1400" timestamp="1588433254559" />
-    <state x="538" y="228" width="1562" height="828" key="find.popup" timestamp="1588436474961">
+    <state x="1202" y="377" key="SettingsEditor/0.40.3440.1400@0.40.3440.1400" timestamp="1588442665611" />
+    <state x="538" y="228" width="1562" height="828" key="find.popup" timestamp="1588441029832">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state x="538" y="228" width="1562" height="828" key="find.popup/0.40.3440.1400@0.40.3440.1400" timestamp="1588436474961" />
+    <state x="538" y="228" width="1562" height="828" key="find.popup/0.40.3440.1400@0.40.3440.1400" timestamp="1588441029832" />
   </component>
 </project>
