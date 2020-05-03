@@ -14,6 +14,7 @@ class ResolveServices
     protected $defendantSignatures;
     protected $totalPlaintiffPoints;
     protected $totalDefendantPoints;
+    protected $loserRoles;
 
     /**
      * Construct function
@@ -61,6 +62,7 @@ class ResolveServices
 
         switch ($winner) {
             case self::DEFENDANT_WINS:
+                $this->loserRoles = $this->plaintiffSignatures;
                 $result = $this->checkHasSignature($this->plaintiffSignatures, RoleType::EMPTY_SIGNATURE) ?
                     $this->findRoleTypesToWin(
                         ($this->totalDefendantPoints - $this->totalPlaintiffPoints)
@@ -68,6 +70,7 @@ class ResolveServices
                 break;
 
             case self::PLAINTIFF_WINS:
+                $this->loserRoles = $this->defendantSignatures;
                 $result = $this->checkHasSignature($this->defendantSignatures, RoleType::EMPTY_SIGNATURE) ?
                     $this->findRoleTypesToWin(
                         ($this->totalPlaintiffPoints - $this->totalDefendantPoints)
@@ -90,6 +93,11 @@ class ResolveServices
         ++$diffPoints;
         $sumPoints = 0;
         $result = [RoleType::get('points', $diffPoints)['id'] ?? null];
+
+        if ($diffPoints === RoleType::get('id', RoleType::KING)['points'] &&
+            $this->checkHasSignature($this->loserRoles, RoleType::VALIDATOR)) {
+            $result[0] = null;
+        }
 
         if (!$result[0]) {
             while ($sumPoints < $diffPoints) {
@@ -143,8 +151,8 @@ class ResolveServices
 
         $pointsFromRoles = RoleType::getValuesByAttribute('points');
 
-        // If is odd, delete the king option point
-        if ($mod & 1) {
+        // If is odd or have V signature, delete the king option point
+        if ($mod & 1 || $this->checkHasSignature($this->loserRoles, RoleType::VALIDATOR)) {
             $pointsFromRoles = array_diff(
                 $pointsFromRoles,
                 [(RoleType::get('id', RoleType::KING)['points'])]
