@@ -104,8 +104,13 @@ class ResolveServices
                 $closestPoint = $this->getClosestPoint(($diffPoints - $sumPoints));
                 $roleTypeByPoint = RoleType::get('points', $closestPoint);
                 if ($roleTypeByPoint && $sumPoints < $diffPoints) {
-                    $result[] = $roleTypeByPoint['id'];
-                    $sumPoints += $roleTypeByPoint['points'];
+                    if (($roleTypeByPoint['id'] === RoleType::VALIDATOR) &&
+                        $this->checkHasSignature($this->loserRoles, RoleType::KING)) {
+                        --$sumPoints;
+                    } else {
+                        $result[] = $roleTypeByPoint['id'];
+                        $sumPoints += $roleTypeByPoint['points'];
+                    }
                 }
             }
         }

@@ -4,67 +4,6 @@
     <list default="true" id="bffe6199-3801-496f-98cd-8280423a036d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Signaturit/Domain/Services/Contracts/ResolveServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Signaturit/Domain/Services/Contracts/ResolveServices.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Console/Kernel.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Console/Kernel.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Console/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Console/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Console/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Console/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Http/Controllers/Controller.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Http/Controllers/Controller.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Http/Controllers/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Http/Controllers/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Http/Controllers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Http/Controllers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Http/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Http/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Http/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Http/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Models/BasicModel.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Models/BasicModel.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Models/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Models/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Models/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Models/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Providers/AppServiceProvider.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Providers/AppServiceProvider.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Providers/AuthServiceProvider.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Providers/AuthServiceProvider.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Providers/EventServiceProvider.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Providers/EventServiceProvider.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Providers/RouteServiceProvider.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Providers/RouteServiceProvider.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Providers/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Providers/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Providers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Providers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/Contracts/Roles/RoleType.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/Contracts/Roles/RoleType.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/Contracts/Roles/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/Contracts/Roles/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/Contracts/Roles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/Contracts/Roles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/Contracts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/Contracts/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/Contracts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/Contracts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Models/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Rules/Contracts/ContractRule.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Rules/Contracts/ContractRule.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Rules/Contracts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Rules/Contracts/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Rules/Contracts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Rules/Contracts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Rules/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Rules/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Rules/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Rules/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Services/Contracts/ResolveServices.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Services/Contracts/ResolveServices.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Services/Contracts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Services/Contracts/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Services/Contracts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Services/Contracts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Services/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Services/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/Services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/Domain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/Domain/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Controllers/Contracts/ContractController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Controllers/Contracts/ContractController.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Controllers/Contracts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Controllers/Contracts/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Controllers/Contracts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Controllers/Contracts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Controllers/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Controllers/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Controllers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Controllers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Requests/Contracts/ContractRequest.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Requests/Contracts/ContractRequest.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Requests/Contracts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Requests/Contracts/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Requests/Contracts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Requests/Contracts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Requests/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Requests/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Requests/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Requests/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/Contracts/NeededRolesToWin.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/Contracts/NeededRolesToWin.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/Contracts/WinnerResource.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/Contracts/WinnerResource.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/Contracts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/Contracts/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/Contracts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/Contracts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/Resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/Api/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/UI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/UI/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/Signaturit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/Signaturit/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Services/Contracts/ResolveServiceUnitTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Services/Contracts/ResolveServiceUnitTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../crm-clients/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../crm-clients/CHANGELOG.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="127.0.0.1" id="9b669651-1be2-4a05-b0ba-2bcd50348890" name="127.0.0.1" port="8000" />
@@ -266,7 +206,8 @@
       <workItem from="1588444506020" duration="3016000" />
       <workItem from="1588447605182" duration="47000" />
       <workItem from="1588497844384" duration="37000" />
-      <workItem from="1588505205261" duration="4716000" />
+      <workItem from="1588505205261" duration="5370000" />
+      <workItem from="1588579751225" duration="2253000" />
     </task>
     <servers />
   </component>
@@ -306,54 +247,54 @@
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state x="1511" y="499" key="FileChooserDialogImpl/0.40.3440.1400@0.40.3440.1400" timestamp="1588440981908" />
-    <state width="3396" height="313" key="GridCell.Tab.0.bottom" timestamp="1588509919302">
+    <state width="3396" height="473" key="GridCell.Tab.0.bottom" timestamp="1588581307314">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="313" key="GridCell.Tab.0.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588509919302" />
-    <state width="3396" height="313" key="GridCell.Tab.0.center" timestamp="1588509919301">
+    <state width="3396" height="473" key="GridCell.Tab.0.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307314" />
+    <state width="3396" height="473" key="GridCell.Tab.0.center" timestamp="1588581307314">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="313" key="GridCell.Tab.0.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588509919301" />
-    <state width="3396" height="313" key="GridCell.Tab.0.left" timestamp="1588509919300">
+    <state width="3396" height="473" key="GridCell.Tab.0.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307314" />
+    <state width="3396" height="473" key="GridCell.Tab.0.left" timestamp="1588581307314">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="313" key="GridCell.Tab.0.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588509919300" />
-    <state width="3396" height="313" key="GridCell.Tab.0.right" timestamp="1588509919302">
+    <state width="3396" height="473" key="GridCell.Tab.0.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307314" />
+    <state width="3396" height="473" key="GridCell.Tab.0.right" timestamp="1588581307314">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="313" key="GridCell.Tab.0.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588509919302" />
-    <state width="3396" height="473" key="GridCell.Tab.1.bottom" timestamp="1588509513662">
+    <state width="3396" height="473" key="GridCell.Tab.0.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307314" />
+    <state width="3396" height="473" key="GridCell.Tab.1.bottom" timestamp="1588581307315">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.1.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588509513662" />
-    <state width="3396" height="473" key="GridCell.Tab.1.center" timestamp="1588509513662">
+    <state width="3396" height="473" key="GridCell.Tab.1.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307315" />
+    <state width="3396" height="473" key="GridCell.Tab.1.center" timestamp="1588581307315">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.1.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588509513662" />
-    <state width="3396" height="473" key="GridCell.Tab.1.left" timestamp="1588509513661">
+    <state width="3396" height="473" key="GridCell.Tab.1.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307315" />
+    <state width="3396" height="473" key="GridCell.Tab.1.left" timestamp="1588581307314">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.1.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588509513661" />
-    <state width="3396" height="473" key="GridCell.Tab.1.right" timestamp="1588509513662">
+    <state width="3396" height="473" key="GridCell.Tab.1.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307314" />
+    <state width="3396" height="473" key="GridCell.Tab.1.right" timestamp="1588581307315">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.1.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588509513662" />
-    <state width="3396" height="473" key="GridCell.Tab.2.bottom" timestamp="1588509300505">
+    <state width="3396" height="473" key="GridCell.Tab.1.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307315" />
+    <state width="3396" height="473" key="GridCell.Tab.2.bottom" timestamp="1588581307315">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.2.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588509300505" />
-    <state width="3396" height="473" key="GridCell.Tab.2.center" timestamp="1588509300505">
+    <state width="3396" height="473" key="GridCell.Tab.2.bottom/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307315" />
+    <state width="3396" height="473" key="GridCell.Tab.2.center" timestamp="1588581307315">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.2.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588509300505" />
-    <state width="3396" height="473" key="GridCell.Tab.2.left" timestamp="1588509300505">
+    <state width="3396" height="473" key="GridCell.Tab.2.center/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307315" />
+    <state width="3396" height="473" key="GridCell.Tab.2.left" timestamp="1588581307315">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.2.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588509300505" />
-    <state width="3396" height="473" key="GridCell.Tab.2.right" timestamp="1588509300505">
+    <state width="3396" height="473" key="GridCell.Tab.2.left/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307315" />
+    <state width="3396" height="473" key="GridCell.Tab.2.right" timestamp="1588581307315">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
-    <state width="3396" height="473" key="GridCell.Tab.2.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588509300505" />
+    <state width="3396" height="473" key="GridCell.Tab.2.right/0.40.3440.1400@0.40.3440.1400" timestamp="1588581307315" />
     <state x="1202" y="377" key="SettingsEditor" timestamp="1588442788556">
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
@@ -362,5 +303,16 @@
       <screen x="0" y="40" width="3440" height="1400" />
     </state>
     <state x="538" y="228" width="1562" height="828" key="find.popup/0.40.3440.1400@0.40.3440.1400" timestamp="1588441029832" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Signaturit/Domain/Services/Contracts/ResolveServices.php</url>
+          <line>92</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
